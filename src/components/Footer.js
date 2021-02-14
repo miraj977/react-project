@@ -30,41 +30,41 @@ function Footer ()
                 <div className='footer-link-wrapper'>
                     <div class='footer-link-items'>
                         <h2>About Us</h2>
-                        <Link to='/react-project/sign-up'>How it works</Link>
-                        <Link to='/react-project'>Testimonials</Link>
-                        <Link to='/react-project'>Careers</Link>
-                        <Link to='/react-project'>Investors</Link>
-                        <Link to='/react-project'>Terms of Service</Link>
+                        <Link to='/sign-up'>How it works</Link>
+                        <Link to='/react-web'>Testimonials</Link>
+                        <Link to='/react-web'>Careers</Link>
+                        <Link to='/react-web'>Investors</Link>
+                        <Link to='/react-web'>Terms of Service</Link>
                     </div>
                     <div class='footer-link-items'>
                         <h2>Contact Us</h2>
-                        <Link to='/react-project'>Contact</Link>
-                        <Link to='/react-project'>Support</Link>
-                        <Link to='/react-project'>Destinations</Link>
-                        <Link to='/react-project'>Sponsorships</Link>
+                        <Link to='/react-web'>Contact</Link>
+                        <Link to='/react-web'>Support</Link>
+                        <Link to='/react-web'>Destinations</Link>
+                        <Link to='/react-web'>Sponsorships</Link>
                     </div>
                 </div>
                 <div className='footer-link-wrapper'>
                     <div class='footer-link-items'>
                         <h2>Videos</h2>
-                        <Link to='/react-project'>Submit Video</Link>
-                        <Link to='/react-project'>Ambassadors</Link>
-                        <Link to='/react-project'>Agency</Link>
-                        <Link to='/react-project'>Influencer</Link>
+                        <Link to='/react-web'>Submit Video</Link>
+                        <Link to='/react-web'>Ambassadors</Link>
+                        <Link to='/react-web'>Agency</Link>
+                        <Link to='/react-web'>Influencer</Link>
                     </div>
                     <div class='footer-link-items'>
                         <h2>Social Media</h2>
-                        <Link to='/react-project'>Instagram</Link>
-                        <Link to='/react-project'>Facebook</Link>
-                        <Link to='/react-project'>Youtube</Link>
-                        <Link to='/react-project'>Twitter</Link>
+                        <Link to='/react-web'>Instagram</Link>
+                        <Link to='/react-web'>Facebook</Link>
+                        <Link to='/react-web'>Youtube</Link>
+                        <Link to='/react-web'>Twitter</Link>
                     </div>
                 </div>
             </div>
             <section class='social-medias'>
                 <div class='social-media-wrap'>
                     <div class='footer-logo'>
-                        <Link to='/react-project' className='social-logo'>
+                        <Link to='/react-web' className='social-logo'>
                             TRVL
               <i class='fab fa-typo3' />
                         </Link>
@@ -73,7 +73,7 @@ function Footer ()
                     <div class='social-icons'>
                         <Link
                             class='social-icon-link facebook'
-                            to='/react-project'
+                            to='/react-web'
                             target='_blank'
                             aria-label='Facebook'
                         >
@@ -81,7 +81,7 @@ function Footer ()
                         </Link>
                         <Link
                             class='social-icon-link instagram'
-                            to='/react-project'
+                            to='/react-web'
                             target='_blank'
                             aria-label='Instagram'
                         >
@@ -89,7 +89,7 @@ function Footer ()
                         </Link>
                         <Link
                             class='social-icon-link youtube'
-                            to='/react-project'
+                            to='/react-web'
                             target='_blank'
                             aria-label='Youtube'
                         >
@@ -97,7 +97,7 @@ function Footer ()
                         </Link>
                         <Link
                             class='social-icon-link twitter'
-                            to='/react-project'
+                            to='/react-web'
                             target='_blank'
                             aria-label='Twitter'
                         >
@@ -105,7 +105,7 @@ function Footer ()
                         </Link>
                         <Link
                             class='social-icon-link twitter'
-                            to='/react-project'
+                            to='/react-web'
                             target='_blank'
                             aria-label='LinkedIn'
                         >
