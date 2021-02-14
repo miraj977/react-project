@@ -11,13 +11,13 @@ function App ()
 {
   return (
     <>
-      <Router basename="/calendar" >
+      <Router>
         <Navbar />
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/services" component={Services} />
-          <Route path="/products" component={Products} />
-          <Route path="/sign-up" component={SignUp} />
+          <Route path="/react-project" exact component={Home} />
+          <Route path="/react-project/services" exact component={Services} />
+          <Route path="/react-project/products" exact component={Products} />
+          <Route path="/react-project/sign-up" exact component={SignUp} />
         </Switch>
       </Router>
     </>
