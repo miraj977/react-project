@@ -9,6 +9,7 @@ import img9 from '../images/img-9.jpg';
 
 function Cards ()
 {
+
     return (
         <div className="cards">
             <h1>Check out these EPIC Destinations!</h1>
@@ -50,5 +51,7 @@ function Cards ()
         </div>
     )
 }
+
+
 
 export default Cards;

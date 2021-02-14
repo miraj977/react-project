@@ -16,6 +16,8 @@ function CardItem ( { src, text, label, path } )
                         </h5>
                     </div>
                 </Link>
+                <span class="loading">Loading...</span>
+
             </li>
         </>
     )
