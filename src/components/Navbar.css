@@ -158,3 +158,8 @@
     transition: 250ms;
   }
 }
+@media (max-width: 480px) {
+  .navbar-logo {
+    margin-left: 0px;
+  }
+}
