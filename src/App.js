@@ -11,13 +11,13 @@ function App ()
 {
   return (
     <>
-      <Router>
+      <Router basename="/react-web">
         <Navbar />
         <Switch>
-          <Route path="/react-web/" exact component={Home} />
-          <Route path="/react-web/services" component={Services} />
-          <Route path="/react-web/products" component={Products} />
-          <Route path="/react-web/sign-up" component={SignUp} />
+          <Route path="/" exact component={Home} />
+          <Route path="/services" exact component={Services} />
+          <Route path="/products" exact component={Products} />
+          <Route path="/sign-up" exact component={SignUp} />
         </Switch>
       </Router>
     </>
