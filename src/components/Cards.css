@@ -127,3 +127,11 @@ h1 {
     flex: 1 auto;
   }
 }
+@media (max-width: 480px) {
+  .cards__wrapper {
+    margin: 20px 0 45px;
+  }
+  .cards {
+    margin: 2rem 0;
+  }
+}
